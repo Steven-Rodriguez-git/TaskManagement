@@ -13,3 +13,4 @@ C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Appl
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Application\obj\Debug\net9.0\refint\TaskManagement.Application.dll
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Application\obj\Debug\net9.0\TaskManagement.Application.pdb
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Application\obj\Debug\net9.0\ref\TaskManagement.Application.dll
+C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Application\obj\Debug\net9.0\TaskManagement.Application.sourcelink.json

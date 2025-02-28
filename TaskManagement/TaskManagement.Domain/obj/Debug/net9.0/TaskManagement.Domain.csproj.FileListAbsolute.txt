@@ -9,3 +9,4 @@ C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Doma
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Domain\obj\Debug\net9.0\refint\TaskManagement.Domain.dll
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Domain\obj\Debug\net9.0\TaskManagement.Domain.pdb
 C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Domain\obj\Debug\net9.0\ref\TaskManagement.Domain.dll
+C:\Users\steve\Documents\Prueba tecnica Popsy\TaskManagement\TaskManagement.Domain\obj\Debug\net9.0\TaskManagement.Domain.sourcelink.json
