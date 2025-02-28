@@ -7,6 +7,17 @@ using TaskManagement.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:5223") 
+              .AllowAnyMethod()                     
+              .AllowAnyHeader();                    
+    });
+});
+
+
 builder.Services.AddDbContext<TaskDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -19,12 +30,15 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();

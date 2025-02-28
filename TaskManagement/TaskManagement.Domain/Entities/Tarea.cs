@@ -10,13 +10,14 @@ namespace TaskManagement.Domain.Entities
         Completada
     }
 
+
     public class Tarea
     {
         public int Id { get; set; }
 
         [Required]
         [MaxLength(100)]
-        public string Titulo { get; set; }
+        public string Titulo { get; set; } = "Tarea de prueba";
 
         public string Descripcion { get; set; }
 
@@ -27,7 +28,7 @@ namespace TaskManagement.Domain.Entities
         public DateTime FechaVencimiento { get; set; }
 
         [Required]
-        public Estado Estado { get; set; }
+        public Estado Estado { get; set; } 
 
         [Required]
         [MaxLength(6)]
